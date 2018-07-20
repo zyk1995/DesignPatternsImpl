@@ -4,7 +4,6 @@ public class Context {
 	Strategy strategy;
 	
 	public void method() {
-		// TODO Auto-generated method stub
 		strategy.algorithm();
 	}
 	
