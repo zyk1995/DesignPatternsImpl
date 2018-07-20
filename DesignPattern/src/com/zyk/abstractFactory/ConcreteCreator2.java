@@ -1,8 +1,5 @@
 package com.zyk.abstractFactory;
 
-
-import com.zyk.factory.method.Light;
-
 public class ConcreteCreator2 implements Creator {
 
 	@Override

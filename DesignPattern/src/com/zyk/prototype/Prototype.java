@@ -38,7 +38,6 @@ public class Prototype implements Cloneable {
 		try{
 			object = super.clone();
 		} catch (CloneNotSupportedException exception) {
-			// TODO: handle exception
 			throw new RuntimeException(exception);
 		}
 		
@@ -47,13 +46,11 @@ public class Prototype implements Cloneable {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "[" + x + "," + y + "," + z + "]";
 	}
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Prototype p1 = new Prototype();
 		p1.change();
 		System.out.println(p1);
