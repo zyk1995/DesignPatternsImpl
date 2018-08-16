@@ -1,8 +1,8 @@
-package com.zyk.Adapter;
+package com.zyk.adapter;
 
 /*
- * ÀàÊÊÅäÆ÷
- * ÊÊÅäÆ÷Àà£¬¼Ì³ĞÁË±»ÊÊÅäÀà£¬Í¬Ê±ÊµÏÖ±ê×¼½Ó¿Ú
+ * ç±»é€‚é…å™¨
+ * é€‚é…å™¨ç±»ï¼Œç»§æ‰¿äº†è¢«é€‚é…ç±»ï¼ŒåŒæ—¶å®ç°æ ‡å‡†æ¥å£
  */
 public class ClassAdapter extends Adaptee implements Target {
 

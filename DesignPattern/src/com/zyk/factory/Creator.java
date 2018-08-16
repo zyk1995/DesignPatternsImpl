@@ -1,7 +1,7 @@
 package com.zyk.factory;
 /*
- * �򵥹���ģʽ
- * ��һ���������������������һ�ֲ�Ʒ���ʵ��
+ * 简单工厂模式
+ * 由一个工厂对象决定创建出哪一种产品类的实例
  */
 public class Creator {
 	

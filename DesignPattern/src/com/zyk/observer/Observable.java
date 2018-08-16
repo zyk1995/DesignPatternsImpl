@@ -1,11 +1,11 @@
-package com.zyk.Observer;
+package com.zyk.observer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//±»¹Û²ìÕßÀà
+//è¢«è§‚å¯Ÿè€…ç±»
 public class Observable {
-	//±»¹Û²ìÕßÁĞ±í
+	//è¢«è§‚å¯Ÿè€…åˆ—è¡¨
 	List<Observer> observers = new ArrayList<Observer>();
 	
 	public void addObserver(Observer o){
@@ -13,12 +13,11 @@ public class Observable {
 	}
 	
 	public void changed(){
-		System.out.println("ÎÒÊÇ±»¹Û²ìÕß£¬ÎÒÒÑ¾­·¢Éú±ä»¯ÁË");
-		notifyObservers();//Í¨Öª¹Û²ì×Ô¼ºµÄËùÒÔ¹Û²ìÕß
+		System.out.println("æˆ‘æ˜¯è¢«è§‚å¯Ÿè€…ï¼Œæˆ‘å·²ç»å‘ç”Ÿå˜åŒ–äº†");
+		notifyObservers();//é€šçŸ¥è§‚å¯Ÿè‡ªå·±çš„æ‰€ä»¥è§‚å¯Ÿè€…
 	}
 
 	private void notifyObservers() {
-		// TODO Auto-generated method stub
 		for(Observer observer:observers) {
 			observer.update(this);
 		}

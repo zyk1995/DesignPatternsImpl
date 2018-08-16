@@ -1,13 +1,13 @@
-package com.zyk.Adapter;
+package com.zyk.adapter;
 
 
-//¾ßÌåÄ¿±êÀà£¬Ö»Ìá¹©ÆÕÍ¨¹¦ÄÜ
+//å…·ä½“ç›®æ ‡ç±»ï¼Œåªæä¾›æ™®é€šåŠŸèƒ½
 public class ConcreteTarget implements Target {
 
 	@Override
 	public void request() {
 		// TODO Auto-generated method stub
-		System.out.println("ÆÕÍ¨Àà ¾ßÓĞ ÆÕÍ¨¹¦ÄÜ");
+		System.out.println("æ™®é€šç±» å…·æœ‰ æ™®é€šåŠŸèƒ½");
 	}
 
 }

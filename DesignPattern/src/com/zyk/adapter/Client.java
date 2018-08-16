@@ -1,13 +1,13 @@
-package com.zyk.Adapter;
+package com.zyk.adapter;
 
 public class Client {
 
 	public static void main(String[] args) {
-		//Ê¹ÓÃÆÕÍ¨¹¦ÄÜÀà
+		//ä½¿ç”¨æ™®é€šåŠŸèƒ½ç±»
 		Target concreteTarget = new ConcreteTarget();
 		concreteTarget.request();
 		
-		//Ê¹ÓÃÌØÊâ¹¦ÄÜÀà£¬¼´ÊÊÅäÀà
+		//ä½¿ç”¨ç‰¹æ®ŠåŠŸèƒ½ç±»ï¼Œå³é€‚é…ç±»
 		Target adapter = new ClassAdapter();
 		adapter.request();
 		

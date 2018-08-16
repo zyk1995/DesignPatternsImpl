@@ -42,7 +42,7 @@ public class TestSingleton {
 		Thread.sleep(5000);
 		lock.setLock(false);
 		Thread.sleep(5000);
-		System.out.println("-------并发情况下我们取到的实例---------");
+		System.out.println("-------骞跺彂鎯呭喌涓嬫垜浠彇鍒扮殑瀹炰緥---------");
 		for (String instance : instanceSet) {
 			System.out.println(instance);
 		}
