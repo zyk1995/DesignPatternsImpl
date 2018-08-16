@@ -1,4 +1,4 @@
-package com.zyk.Proxy;
+package com.zyk.proxy;
 
 public class Client {
 }
